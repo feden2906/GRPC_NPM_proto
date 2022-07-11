@@ -1,0 +1,14 @@
+{
+  "name": "grpc-proto",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qwe"
+  ],
+  "author": "feden2906",
+  "license": "ISC"
+}
