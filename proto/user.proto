@@ -15,7 +15,7 @@ message UserData {
   string firstName = 2;
   string lastName = 3;
   string email = 4;
-  UserStatusEnum status = 5;
+  string status = 5;
 }
 
 // Create user
@@ -60,10 +60,4 @@ message DeleteUserRequest {
 message DeleteUserResponse {
   int32 status = 1;
   repeated string error = 2;
-}
-
-enum UserStatusEnum {
-  NOT_CONFIRM_EMAIL = 0;
-  ACTIVE = 1;
-  BLOCKED = 2;
 }
