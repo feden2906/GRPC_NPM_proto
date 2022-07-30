@@ -1,14 +1,17 @@
 {
   "name": "grpc-proto",
-  "version": "1.0.11",
+  "version": "1.0.15",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "republish": "npm publish --access public"
+    "republish": "npx tsc && npm publish --access public"
   },
   "keywords": [
     "qwe"
   ],
   "author": "feden2906",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
