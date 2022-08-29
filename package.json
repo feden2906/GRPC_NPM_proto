@@ -7,9 +7,6 @@
   "scripts": {
     "republish": "npm publish --access public"
   },
-  "keywords": [
-    "qwe"
-  ],
   "author": "feden2906",
   "license": "ISC",
   "devDependencies": {
